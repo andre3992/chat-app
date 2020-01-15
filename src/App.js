@@ -2,10 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Contact from "./components/contact"
+import ContactList from "./components/Contactlist"
+
 
 function App() {
   return (
     <div className="app">
+      <ContactList />
       <Contact 
       avatar="https://randomuser.me/api/portraits/men/54.jpg"
       name="Robert"
