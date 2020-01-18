@@ -17,8 +17,20 @@ class ContactList extends React.Component {
       },
 
       {
-        avatar: "https://randomuser.me/api/portraits/women/23.jpg",
-        name: "Jane",
+        avatar: "https://randomuser.me/api/portraits/men/52.jpg",
+        name: "Gregory",
+        status: true
+      },
+
+      {
+        avatar: "https://randomuser.me/api/portraits/women/22.jpg",
+        name: "Jill",
+        status: false
+      },
+
+      {
+        avatar: "https://randomuser.me/api/portraits/women/19.jpg",
+        name: "Ruth",
         status: true
       }
     ];
