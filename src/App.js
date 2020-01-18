@@ -7,6 +7,9 @@ function App() {
   return (
     <div className="app">
       <ContactList />
+
+
+      
       {/*<Contact 
       avatar="https://randomuser.me/api/portraits/men/54.jpg"
       name="Robert"
